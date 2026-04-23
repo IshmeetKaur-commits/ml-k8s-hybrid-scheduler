@@ -1,22 +1,26 @@
-# Ignore your local training script
-train.py
+# Ignore models folder completely
+models/
+
+# Ignore Windows zone identifier junk files
+*Zone.Identifier
+
+# Ignore duplicate numbered files
+*(1).png
+*(2).png
+
+# Ignore notebooks if not needed
+notebooks/
+
+# Ignore local src
+src_local/
 
 # Python cache
 __pycache__/
 *.pyc
 
-# Virtual environment
-venv/
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Environment variables
+# Environment
 .env
-
-# Ignore only model files (not folder)
-*.pkl
-*.joblib
+venv/
 
 # Dataset
 dataset/
