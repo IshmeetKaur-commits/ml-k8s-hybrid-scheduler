@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cpu-loader
+spec:
+  containers:
+  - name: cpu-loader
+    image: busybox
+    command: ["/bin/sh", "-c"]
+    args:
+      - while true; do yes > /dev/null; done
+    resources:
+      requests:
+        cpu: "500m"
+      limits:
+        cpu: "700m"

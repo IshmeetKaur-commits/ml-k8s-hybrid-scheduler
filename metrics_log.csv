@@ -1,0 +1,4 @@
+2026-04-20 18:53:47.758300,minikube,minikube,6.04,1441.0,4.2534,"{'minikube-m02': 7, 'minikube': 12}",ML recommended this node,2.12
+2026-04-20 18:53:47.758369,minikube,minikube-m02,5.021,697.0,4.2534,"{'minikube-m02': 7, 'minikube': 12}",ML recommended this node,1.61
+2026-04-23 10:37:25.951343,minikube-m02,minikube,6.267,1335.0,3.6449,"{'minikube-m02': 9, 'minikube': 12}","Lowest CPU usage, Memory within safe limit",0.33
+2026-04-23 10:37:25.951454,minikube-m02,minikube-m02,5.886,754.0,3.6449,"{'minikube-m02': 9, 'minikube': 12}","Lowest CPU usage, Memory within safe limit",1.49

@@ -1,0 +1,16 @@
+{
+  "pod": {
+    "metadata": {
+      "name": "test-pod"
+    }
+  },
+  "nodes": {
+    "items": [
+      {
+        "metadata": {
+          "name": "minikube"
+        }
+      }
+    ]
+  }
+}

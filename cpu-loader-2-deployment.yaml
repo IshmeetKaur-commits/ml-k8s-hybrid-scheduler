@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cpu-loader-2-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cpu-loader-2
+  template:
+    metadata:
+      labels:
+        app: cpu-loader-2
+    spec:
+      containers:
+      - name: cpu-loader-2
+        image: busybox
+        command: ["/bin/sh", "-c"]
+        args:
+          - while true; do yes > /dev/null & done
+        resources:
+          requests:
+            cpu: "1000m"
+          limits:
+            cpu: "1500m"

@@ -1,0 +1,22 @@
+# Ignore your local training script
+train.py
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Ignore only model files (not folder)
+*.pkl
+*.joblib
+
+# Dataset
+dataset/
