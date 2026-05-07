@@ -67,15 +67,3 @@ Ishmeet Kaur
 
 Anshika Goyal
 
-📜 License
-Academic Use Only.
-
-
----
-
-### Why it might have looked bad before:
-1.  **Indentation:** Markdown code blocks (the ` ``` ` parts) must start at the very beginning of the line.
-2.  **Empty Lines:** Tables and lists need an empty line above them to "trigger" the formatting.
-3.  **File Extension:** Ensure your file is named exactly `README.md`. If you name it `README.txt`, the preview will just show plain text.
-
-**Pro-tip for VS Code:** If you are using VS Code, press `Ctrl + Shift + V` (Windows) to see a live "formatted" preview of the file while you edit!
